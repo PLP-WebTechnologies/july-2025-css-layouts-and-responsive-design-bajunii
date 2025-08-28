@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Demo - CSS Grid & Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <h1>TechBlog</h1>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container using CSS Grid -->
+    <div class="container">
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Welcome to Modern Web Design</h2>
+                    <p>Exploring the power of CSS Grid and Flexbox for responsive layouts</p>
+                    <button class="cta-button">Get Started</button>
+                </div>
+            </section>
+
+            <!-- Featured Articles using Flexbox -->
+            <section class="featured-articles">
+                <h2>Featured Articles</h2>
+                <div class="articles-container">
+                    <article class="article-card">
+                        <div class="card-image">
+                            <div class="placeholder-image">📱</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Responsive Design Principles</h3>
+                            <p>Learn the fundamentals of creating websites that work on all devices.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card">
+                        <div class="card-image">
+                            <div class="placeholder-image">🎨</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>CSS Grid Mastery</h3>
+                            <p>Master the art of creating complex layouts with CSS Grid.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="article-card">
+                        <div class="card-image">
+                            <div class="placeholder-image">⚡</div>
+                        </div>
+                        <div class="card-content">
+                            <h3>Flexbox Fundamentals</h3>
+                            <p>Understand how to align and distribute elements with Flexbox.</p>
+                            <a href="#" class="read-more">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Recent Posts -->
+            <section class="recent-posts">
+                <h2>Recent Posts</h2>
+                <div class="posts-grid">
+                    <article class="post-item">
+                        <h4>Advanced CSS Techniques</h4>
+                        <p>Discover cutting-edge CSS features and how to implement them.</p>
+                        <span class="post-date">March 15, 2025</span>
+                    </article>
+                    <article class="post-item">
+                        <h4>JavaScript Frameworks</h4>
+                        <p>Comparing popular JavaScript frameworks for modern development.</p>
+                        <span class="post-date">March 12, 2025</span>
+                    </article>
+                    <article class="post-item">
+                        <h4>Web Performance Tips</h4>
+                        <p>Optimize your website for speed and better user experience.</p>
+                        <span class="post-date">March 10, 2025</span>
+                    </article>
+                    <article class="post-item">
+                        <h4>Accessibility Best Practices</h4>
+                        <p>Make your websites accessible to users with disabilities.</p>
+                        <span class="post-date">March 8, 2025</span>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h3>About the Author</h3>
+                <div class="author-info">
+                    <div class="author-avatar">👨‍💻</div>
+                    <p>Haitham Omar is a front-end developer with 2+ years of experience in creating responsive web applications.</p>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Categories</h3>
+                <ul class="categories-list">
+                    <li><a href="#">CSS (12)</a></li>
+                    <li><a href="#">JavaScript (8)</a></li>
+                    <li><a href="#">HTML (6)</a></li>
+                    <li><a href="#">Design (4)</a></li>
+                    <li><a href="#">Performance (3)</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Newsletter</h3>
+                <div class="newsletter-form">
+                    <p>Subscribe to get the latest updates!</p>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: contact@techblog.com</p>
+                <p>Phone: +94676291927</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TechBlog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
